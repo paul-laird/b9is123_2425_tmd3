@@ -2,9 +2,17 @@
     <head>
         <title>Test Page</title>
         <script src="index.js"></script>
-        <script>alert("This is an inline script!")</script>
+        <script>alert("This is an inline script!")
+                let c=()=>{
+                    let i=document.getElementById('in').value
+                    alert(i)
+                }
+        </script>
     </head>
     <body>
     <p>Hello World!</p>
+    <input type="text" id="in">
+    <button onclick='c()'>Press Me</button>
+    
     </body>
 </html>
